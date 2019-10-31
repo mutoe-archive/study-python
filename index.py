@@ -1,7 +1,10 @@
-# Calculate BMI
+import numpy as np
 
-height = 1.8
-weight = 72
+vector1 = np.array([1, 2, 3])
+vector2 = np.array([4, 5, 6])
 
-bmi = weight / (height ** 2)
-print(bmi)
+# Vector addition
+print(vector1 + vector2)
+
+# Vector multiplication
+print(vector1 * vector2)
